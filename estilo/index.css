@@ -148,5 +148,25 @@
       #radio4:checked ~ .navegador-auto .auto-btn4{
         background-color: #fff;
       }
+#sobre{
+    display: flex;
+    flex-direction: column;        
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    color: azure;
+    width: 600px;
+    height: 340px;
+    margin: 0 auto;
+}
 
-    
+#sobre h2{
+    color:rgb(108, 109, 109);
+}
+#contacto{
+    width: 600px;
+    height: 340px;
+    margin: 0 auto;
+    border-radius: 2rem;
+    background-color:rgb(34, 34, 119);
+}
