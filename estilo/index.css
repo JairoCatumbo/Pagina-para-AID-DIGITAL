@@ -65,13 +65,13 @@
         
         #slider{
             margin: 0 auto;
-            width: 500px;
-            height: 500px;
+            width: 400px;
+            height: 400px;
             overflow: hidden;  
         }
         #slides{
             width: 400%;
-            height: 500px;
+            height: 400px;
             display: flex;
         }
         #slides input{
@@ -84,7 +84,7 @@
         }  
     #navegador-manual{
         position: absolute;
-        width: 500px;
+        width: 400px;
         margin-top: -40px ;
         display: flex;
         justify-content: center;
@@ -127,8 +127,8 @@
     }
     .navegador-auto{
         position: absolute;
-        width: 500px;
-        margin-top: 460px;
+        width: 400px;
+        margin-top: 360px;
         display: flex;
         justify-content: center;
     }
@@ -157,7 +157,7 @@
     color: azure;
     width: 600px;
     height: 340px;
-    margin: 0 auto;
+    margin: 0  auto;
 }
 
 #sobre h2{
@@ -169,4 +169,12 @@
     margin: 0 auto;
     border-radius: 2rem;
     background-color:rgb(34, 34, 119);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    font-size: x-large;
+    color: azure;
 }
