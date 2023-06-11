@@ -80,6 +80,7 @@
         .slide{
             width: 25%;
             position: relative;
+            transition: 2s;
         }  
     #navegador-manual{
         position: absolute;
